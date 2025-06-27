@@ -35,7 +35,7 @@ Apresenta **indicadores-chave de desempenho (KPIs)** sobre o volume total transa
 - **Número Total de Operações (Geral):** 1,49 Bilhão  
 
 #### 📆 Evolução Temporal
-Gráfico de linhas que demonstra a **Evolução Mensal do Valor Total Transacionado**, permitindo a identificação de **picos, vales e tendências sazonais** (Ago/2019 a Jul/2023).
+Gráfico de linhas que demonstra a **Evolução Mensal do Valor Total Transacionado**, permitindo a identificação de **picos, vales e tendências sazonais** (Jan/2020 a Jul/2023).
 
 #### ⚠️ Alerta de Transações Atípicas
 Tabela de alertas que **sinaliza automaticamente criptoativos com comportamento atípico**, como **BTC** e **BUSD** nos primeiros meses de 2021.
@@ -74,10 +74,54 @@ Inspirada na **matriz BCG**, classifica os criptoativos em quadrantes estratégi
 
 ---
 
+## 📂 Fonte dos Dados
+
+Os dados utilizados neste projeto foram obtidos no Kaggle:  
+🔗 [Criptoativos - Dados Abertos da Receita Federal (2023)](https://www.kaggle.com/datasets/thamiresfalbo/criptoativos-dados-abertos-receita-federal-2023)
+
+---
+
+## 🗂️ Fonte de Dados e Preparação
+
+A base de dados original para este projeto era um único repositório de informações.  
+Para otimizar o processo de tratamento e carregamento no Power BI, os dados foram **segmentados e limpos**, resultando nos seguintes arquivos `.csv`.  
+Esse processo envolveu a **remoção de textos desnecessários** e a **estruturação das informações em formato puramente tabular**.
+
+### 📁 Arquivos de Dados
+
+#### **dados_relatorio1.csv a dados_relatorio4.csv**  
+Contêm os **dados transacionais brutos**, base para os seguintes indicadores:
+- Valor Total Transacionado  
+- Número Total de Operações  
+- Evolução Mensal  
+- Alertas de Transações Atípicas
+
+#### **dados_perfil_cripto.csv**  
+Métricas agregadas com:
+- Valor médio por operação  
+- Total de operações por criptoativo  
+Utilizado para o gráfico de **Segmentação de Criptoativos por Perfil de Negociação**.
+
+#### **dados_risco_modalidade.csv**  
+Pontuação de risco consolidada por modalidade de transação.  
+Utilizado para o gráfico de **Nível de Risco por Modalidade de Transação**.
+
+#### **dados_estrategicos.csv**  
+Pontuações de crescimento e liquidez por criptoativo.  
+Base para a **Matriz Estratégica: Crescimento vs. Liquidez**.
+
+---
+
+## 💡 Nome Sugerido para o Repositório
+
+- `crypto-analysis-dashboard`  
+- `dashboard-analise-criptoativos`
+
+---
+
 ## 📄 Licença
 
 Este projeto é licenciado sob a **MIT License**.  
 Ela permite uso, modificação e distribuição, desde que o devido crédito seja mantido.
 
 ---
-
