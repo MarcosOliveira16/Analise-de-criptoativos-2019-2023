@@ -35,7 +35,7 @@ Apresenta **indicadores-chave de desempenho (KPIs)** sobre o volume total transa
 - **Número Total de Operações (Geral):** 1,49 Bilhão  
 
 #### 📆 Evolução Temporal
-Gráfico de linhas que demonstra a **Evolução Mensal do Valor Total Transacionado**, permitindo a identificação de **picos, vales e tendências sazonais** (Jan/2020 a Jul/2023).
+Gráfico de linhas que demonstra a **Evolução Mensal do Valor Total Transacionado**, permitindo a identificação de **picos, vales e tendências sazonais** (Ago/2019 a Jul/2023).
 
 #### ⚠️ Alerta de Transações Atípicas
 Tabela de alertas que **sinaliza automaticamente criptoativos com comportamento atípico**, como **BTC** e **BUSD** nos primeiros meses de 2021.
@@ -71,13 +71,6 @@ Inspirada na **matriz BCG**, classifica os criptoativos em quadrantes estratégi
 
 - **Microsoft Power BI** (com uso de DAX para cálculos estratégicos)  
 - **Big Data:** Conjunto de dados massivo com registros de operações de criptoativos
-
----
-
-## 💡 Nome Sugerido para o Repositório
-
-- `crypto-analysis-dashboard`  
-- `dashboard-analise-criptoativos`
 
 ---
 
